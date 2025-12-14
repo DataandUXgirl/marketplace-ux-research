@@ -8,7 +8,7 @@ Tools used: Fig Jam, Figma, Google Forms, Google Sheets
 
 E No Lost is a web based application designed to simplify and streamline the process of managing lost and found items. It bridges the gap between individuals who have lost valuable possessions and those who find them, creating a centralized platform for quick and efficient resolutions. The application is targeted at places where misplaced items are common.
 
-![Eno lost cover.png](E%20no%20Lost/Eno_lost_cover.png)
+![Eno Lost cover](Eno_lost_cover.png)
 
 ## Problem Statement
 
