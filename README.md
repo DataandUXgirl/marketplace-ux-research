@@ -1,0 +1,245 @@
+# E no Lost
+
+Description: Lost and Found Web Design
+Tags: Style guide, UX design, User Interface, Web design
+Tools used: Fig Jam, Figma, Google Forms, Google Sheets
+
+## Project Overview
+
+E No Lost is a web based application designed to simplify and streamline the process of managing lost and found items. It bridges the gap between individuals who have lost valuable possessions and those who find them, creating a centralized platform for quick and efficient resolutions. The application is targeted at places where misplaced items are common.
+
+![Eno lost cover.png](E%20no%20Lost/Eno_lost_cover.png)
+
+## Problem Statement
+
+Losing personal belongings is a frustrating and stressful experience. Current solutions for managing lost and found items, such as physical notices, social media posts, or local inquiries, are often inefficient, time consuming, and lack a centralized system for protecting and tracking the lost items.
+
+## Challenges
+
+1. A platform to maximize visibility for lost and found item.
+2. A centralized platform to simplify lost and found processes.
+3. A quick solution to connect lost items with their owners.
+4. A secure system to verify rightful ownership.
+
+## Solution
+
+E No Lost offers a smart and simple solution. users can easily report lost or found belongings, add photos and descriptions, and search its comprehensive database of lost and found items. The clever matching algorithms do the heavy lifting, quickly and efficiently connecting you with what you're looking for.
+
+## Research Phase🔍
+
+Using the design thinking process to better understand the main problems our users and and also understand what our competitors were offering, I started the design process with research.
+
+## Research 👉🏾 Define 👉🏾 Ideate 👉🏾 Design
+
+## **Quantitative Research**
+
+Conducted quantitative research to screen potential users for the interview phase, ensuring that the participants selected aligned with the target audience and their behaviors. A total of 67 responses were gathered, providing valuable insights into how people handle lost and found items, their challenges, and their willingness to adopt a digital solution. This data helped identify key user patterns, validate assumptions, and refine the direction of the application before moving into the interview stage.
+
+- The survey confirmed that most respondents are between 18-28 years old, indicating a younger target audience.
+- Many agreed that possessions remain lost due to the lack of a way to identify owners, validating the need for a solution.
+- 80% of respondents would return a lost item either by handing it to a lost property unit or contacting the owner if details were available.
+- Mobile apps were the most preferred platform, making a mobile-first approach ideal.
+- The concept of an anonymous lost and found service received mostly positive reactions, though a few respondents had concerns.
+- Most users are willing to sign up but prefer an optional donation model rather than a fixed subscription fee. Willingness to pay varies widely, from small donations to ₦5000 ($6.50 USD).
+
+## Interviews 💬
+
+I conducted user interviews to gain qualitative insights into the challenges users face when losing personal belongings. These interviews explored the emotional impact of losing items and gathered feedback on existing lost and found platforms.
+
+## **Competitive Analysis** ⚖️
+
+As part of my UX research, I conducted a comprehensive competitive analysis of three major players in the lost and found market. This analysis helped identify gaps in existing solutions and opportunities for innovation in my design.
+
+| Key Findings | iLost & Found | MissingX | BoomerangIT |
+| --- | --- | --- | --- |
+| User Pain Points (Weaknesses) | Lack of seamless account creation, confusing user flow | Limited authentication options, complex navigation | Poor onboarding experience, unclear sign-up process |
+| Strengths | Strong organization integration, insurance features | Robust business partnerships, wide market reach | Innovative reward system, user-centric approach |
+| Accessibility Issues | No screen reader support, language barriers | Limited accessibility features, complex UI | Poor screen reader integration, navigation issues |
+| Design Opportunities | Improve user authentication, simplify flows | Enhanced accessibility, clearer navigation | Better onboarding, intuitive interface |
+|  |  |  |  |
+
+Key UX Insights:
+
+- All competitors lack clear visual hierarchy and intuitive navigation
+- Accessibility features are consistently overlooked across platforms
+- User authentication and onboarding processes need significant improvement
+- Opportunity exists for a more user-friendly, accessible solution
+
+These findings directly informed our design decisions, helping us prioritize accessibility, clear navigation, and seamless user authentication in our solution.
+
+## **Define Phase**
+
+## User Persona
+
+Created personas and customer journey map to understand more about the user's problems. 
+
+![User persona.png](E%20no%20Lost/User_persona.png)
+
+## User Journey map
+
+|   Actions   | Research | Onboarding | Report Lost Item | Search for Item | Claim Item |
+| --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  |  |
+| Doing | Searches online for lost item asks people, checks physical notice boards. | 1. Downloads the app | 1. Opens the app, uploads photos. | 1. Use search filters (category, location, keywords) | 1. Contact the poster |
+|  |  | 2. Creates an account | 2. Navigates to "Report Lost Item, | 2. Browse listings. | 2. Verify ownership,  |
+|  |  | 3. Explores the interface. | 3. Fills out the form |  | 3.  Arrange a meeting, |
+|  |  |  | 4. uploads photos of lost item. |  | 4. Retrieve the item. |
+|  |  |  |  |  |  |
+| Thinking | 1. There has to be a better way to find this   | 1. This looks easy to use | 1. I hope I remember all the details  | 1. Is this really my item?  | 1. How legitimate is this person? |
+|  | 2. I hope someone has seen it | 2.  I hope this app actually works | 2.  hope someone finds it   | 2. Where is the finder located? | 2. Where do we meet?  |
+|  | 3. Where do I even start? | 3.  Is my information safe? | 3. I should take a good picture | 3. How do I contact the finder? | 3. What if its not my item? |
+|  |  |  |  |  |  |
+| Touchpoint | Direct Google search, social media, E No lost landing page. | 1. E No lost landing page | 1. Report Lost item screen | 1. Search filters | 1. Verification Screen |
+|  |  | 2. Onboarding screen | 2. Image/video upload screen | 2. Item listings | 2.  Phone calls, in-person meeting. |
+|  |  | 3. Registration Screen |  | 3. Map | 3. Messaging Screen |
+|  |  | 4. Email verification |  |  |  |
+|  |  | 5. Welcome screen |  |  |  |
+|  |  |  |  |  |  |
+| Emotion | Frustration, anxiety, hope, desperation. | Curiosity  , optimism, slight apprehension. | Hopeful , anxiety about forgetting details, relief after submitting. | Hopeful, frustration with search filters, excited (if a match is found), disappointed (if no match),  | Excitement, anticipation, nervousness, relief upon retrieval. |
+|  |  |  |  |  |  |
+| Opportunity | Finds E No Lost  Website | Provide a clear and seamless onboarding experience, highlighting key features and security measures. | Streamline the reporting process, provide clear instructions and helpful prompts, offer photo upload guidance. | Add a search filter, provide clear item descriptions and photos, add map functionality. | Create secure communication between users, provide seamless verification process, offer safety tips for meetings. |
+
+## **Ideation Phase**
+
+<aside>
+💡
+
+The user flow map visualizes how users navigate through the application, highlighting key pathways and interactions. It establishes a clear information hierarchy and ensures intuitive feature organization, serving as the blueprint for the application's structure.
+
+</aside>
+
+*User flow map*
+
+![E no Lost Information architecture 1.png](E%20no%20Lost/E_no_Lost_Information_architecture_1.png)
+
+## **Design Phase**
+
+## 🎨 Design System
+
+![Colur style.png](E%20no%20Lost/Colur_style.png)
+
+![Typography.png](E%20no%20Lost/Typography.png)
+
+![Grid system (1).png](E%20no%20Lost/Grid_system_(1).png)
+
+![Grid system (2).png](E%20no%20Lost/Grid_system_(2).png)
+
+![Grid system.png](E%20no%20Lost/Grid_system.png)
+
+![Components (2).png](E%20no%20Lost/Components_(2).png)
+
+![Components (3).png](E%20no%20Lost/Components_(3).png)
+
+## **🔑 Registration / Sign Up Screens**
+
+<aside>
+💡
+
+I believe onboarding should feel like an invitation, not a barrier. The registration and email verification flow was designed to feel as light as possible, guiding users in with clear instructions, minimal input fields, and a sense of welcome from the first click
+
+</aside>
+
+![      Signup ~ Default State ](E%20no%20Lost/Enolost001.png)
+
+      Signup ~ Default State 
+
+![     Signup ~ Typing State ](E%20no%20Lost/Enolost_002.png)
+
+     Signup ~ Typing State 
+
+![     Signup ~ Error State ](E%20no%20Lost/e_no_lost_001.png)
+
+     Signup ~ Error State 
+
+![      Verification Screen](E%20no%20Lost/enolost_004.png)
+
+      Verification Screen
+
+## 🤳🏾 Browsing found items
+
+![      Home Screen](E%20no%20Lost/ThemeLight_Type_Chrome_(7).png)
+
+      Home Screen
+
+![      Item Details Screen](E%20no%20Lost/ThemeLight_Type_Chrome.png)
+
+      Item Details Screen
+
+> The registration screen was intentionally kept minimal to reduce friction. It includes only essential fields (username, email, password), making the process quick and less overwhelming for first time users.
+> 
+
+> As users start typing, field labels shift and helper texts appear. This makes the experience feel more interactive and reduces errors before submission.
+> 
+
+> Mistakes can happen…I made sure the error messages were clear and friendly. Instead of red flags or harsh tones, users get gently guided on what needs fixing.
+> 
+
+> The “Sign Up” button remains inactive until all fields are valid. This gives users a clear signal that they’re not ready yet, without using a harsh popup or alert.
+> 
+
+> After submitting their details, users are asked to verify their email. This adds a layer of trust to the platform and helps prevent spam. I kept the message warm and human, letting users know they’re just one step away from joining the community.
+> 
+
+> Once logged in, users land on the dashboard where they can scroll through recently posted found items. Each item is shown in a simple card format with a picture, item type, and short headline. This helps users quickly scan for familiar items.
+> 
+
+> When a user clicks on any item card, they’re taken to a dedicated page showing full details which includes images, a brief description, and a bold “Claim Item” button. The goal was to create a sense of trust and clarity while guiding users to take action easily.
+> 
+
+## Claim item process
+
+<aside>
+💡
+
+To prevent false claims and build a system people can rely on, I designed a **4-step claim process** backed by evidence, context, and verification. Each screen guides users with clear progress indicators, input constraints, and supportive microcopy.
+
+</aside>
+
+![Theme=Light, Type=🤖 Chrome (2).png](E%20no%20Lost/ThemeLight_Type_Chrome_(2).png)
+
+> In this first step, users are asked to provide personal identification details. These help the platform verify the legitimacy of the person making the claim.
+> 
+
+> I included official ID submission to reduce spam and build a sense of accountability from the start. Users can choose the ID type, keeping it flexible.
+> 
+
+![Theme=Light, Type=🤖 Chrome (3).png](E%20no%20Lost/ThemeLight_Type_Chrome_(3).png)
+
+> Here, users provide details about the item they are claiming. These responses help validate ownership, especially when cross checked with the original finder
+> 
+
+> I leaned into open ended fields to let users give personalised descriptions. In future iterations, I’ll replace some text fields with drop downs for faster input and data consistency.
+> 
+
+![Theme=Light, Type=🤖 Chrome (4).png](E%20no%20Lost/ThemeLight_Type_Chrome_(4).png)
+
+> To further verify ownership, I added memory based security questions the kind of info only the real owner would know.
+> 
+
+> This step adds a human touch. It’s not just about the item, it’s about the context. Memories are harder to fake than physical descriptions.
+> 
+
+![Theme=Light, Type=🤖 Chrome (5).png](E%20no%20Lost/ThemeLight_Type_Chrome_(5).png)
+
+> The user is asked to schedule a convenient pickup date, time, and location.
+> 
+
+> By letting users choose a pickup time and place, I reduced the friction in reuniting people with their items. Future versions can integrate maps or location APIs.
+> 
+
+## 🔄 Future Learnings & Iterations
+
+- I plan to design mobile screens, add admin-user communication features, and conduct usability testing for deeper insights.
+- I realized I didn’t include a “Report Found Item” screen, which is a key feature for encouraging community contribution. In a future iteration, I’d design a clear and simple flow that lets users quickly submit found items, with options to add item details, upload photos, and set visibility preferences.
+- Some text inputs (like item type and ID type) could be replaced with drop downs to reduce user effort and improve data accuracy.
+- I missed adding a verification success screen, which is essential to complete the onboarding loop and build trust.
+- The multi-step claim process might feel overwhelming. I’d explore adding tooltips or explanations at each step to guide users.
+- Uploading documentation might be difficult for some users. A "save and continue later" feature or mobile camera access would help.
+- I’d add more comforting microcopy during claim steps to reassure users during what could be a stressful process.
+
+## **Takeaways:**
+
+<aside>
+✅ While working on *E No Lost*, I focused so much on helping users claim items that I overlooked one of the most important parts of a lost and found system — reporting a found item. This was a big aha moment for me. It reminded me that great UX isn’t just about polishing what users *do* on the app, but making sure all *core user journeys* are covered. In the next iteration, I’d create a simple, welcoming flow that encourages good samaritans to share what they’ve found. Because the heart of this product isn’t just design — it’s community.
+
+</aside>
