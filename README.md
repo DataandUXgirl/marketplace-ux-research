@@ -16,39 +16,41 @@ Losing personal belongings is a frustrating and stressful experience. Current so
 
 ## Challenges
 
-1. A platform to maximize visibility for lost and found item.
-2. A centralized platform to simplify lost and found processes.
-3. A quick solution to connect lost items with their owners.
-4. A secure system to verify rightful ownership.
+1. Maximize visibility for lost and found items.
+2. Simplify lost and found processes in one place.
+3. Quickly reconnect items with their owners.
+4. Securely verify rightful ownership.
+
+
 
 ## Solution
 
-E No Lost offers a smart and simple solution. users can easily report lost or found belongings, add photos and descriptions, and search its comprehensive database of lost and found items. The clever matching algorithms do the heavy lifting, quickly and efficiently connecting you with what you're looking for.
+E No Lost makes it easy to report lost or found items, add photos and details, and search a large database. Its matching tools quickly connect people with their belongings.
 
 ## Research Phase🔍
 
-Using the design thinking process to better understand the main problems our users and and also understand what our competitors were offering, I started the design process with research.
+To understand user needs and competitor offerings, I began with research.
 
 ## Research 👉🏾 Define 👉🏾 Ideate 👉🏾 Design
 
 ## **Quantitative Research**
 
-Conducted quantitative research to screen potential users for the interview phase, ensuring that the participants selected aligned with the target audience and their behaviors. A total of 67 responses were gathered, providing valuable insights into how people handle lost and found items, their challenges, and their willingness to adopt a digital solution. This data helped identify key user patterns, validate assumptions, and refine the direction of the application before moving into the interview stage.
+Conducted a quantitative survey (67 responses) to recruit interview participants and understand lost-and-found behaviors. Findings revealed key pain points and adoption interest, helping validate assumptions and refine the app direction before interviews.
 
-- The survey confirmed that most respondents are between 18-28 years old, indicating a younger target audience.
-- Many agreed that possessions remain lost due to the lack of a way to identify owners, validating the need for a solution.
-- 80% of respondents would return a lost item either by handing it to a lost property unit or contacting the owner if details were available.
-- Mobile apps were the most preferred platform, making a mobile-first approach ideal.
-- The concept of an anonymous lost and found service received mostly positive reactions, though a few respondents had concerns.
-- Most users are willing to sign up but prefer an optional donation model rather than a fixed subscription fee. Willingness to pay varies widely, from small donations to ₦5000 ($6.50 USD).
+- Most respondents were 18–28, indicating a younger audience.
+- Many said items stay lost because owners can’t be identified. 
+- 80% would return a found item via lost property or by contacting the owner if details were available.
+- Mobile apps were the top choice, supporting a mobile first approach.
+- The anonymous lost and found concept was received positively, with a few concerns.
+- Users prefer optional donations over subscriptions; willingness to pay ranges from small amounts up to ₦5000 ($6.50).
 
 ## Interviews 💬
 
-I conducted user interviews to gain qualitative insights into the challenges users face when losing personal belongings. These interviews explored the emotional impact of losing items and gathered feedback on existing lost and found platforms.
+I conducted user interviews to understand the challenges and emotional impact of losing personal items, and to gather feedback on existing lost and found platforms.
 
 ## **Competitive Analysis** ⚖️
 
-As part of my UX research, I conducted a comprehensive competitive analysis of three major players in the lost and found market. This analysis helped identify gaps in existing solutions and opportunities for innovation in my design.
+I conducted a competitive analysis of three major lost and found platforms to identify gaps and opportunities for innovation.
 
 | Key Findings | iLost & Found | MissingX | BoomerangIT |
 | --- | --- | --- | --- |
@@ -60,18 +62,21 @@ As part of my UX research, I conducted a comprehensive competitive analysis of t
 
 Key UX Insights:
 
-- All competitors lack clear visual hierarchy and intuitive navigation
-- Accessibility features are consistently overlooked across platforms
-- User authentication and onboarding processes need significant improvement
-- Opportunity exists for a more user-friendly, accessible solution
+- Competitors lack clear hierarchy and intuitive navigation
+- Accessibility is often overlooked
+- Authentication and onboarding need improvement
+- Opportunity for a more user friendly, accessible solution
 
-These findings directly informed our design decisions, helping us prioritize accessibility, clear navigation, and seamless user authentication in our solution.
+These insights shaped our design priorities: accessibility, clear navigation, and streamlined authentication.
+
+
+
 
 ## **Define Phase**
 
 ## User Persona
 
-Created personas and customer journey map to understand more about the user's problems. 
+Created personas and journey maps to better understand user problems.
 
 ![User persona.png](User_persona.png)
 
@@ -104,7 +109,7 @@ Created personas and customer journey map to understand more about the user's pr
 <aside>
 💡
 
-The user flow map visualizes how users navigate through the application, highlighting key pathways and interactions. It establishes a clear information hierarchy and ensures intuitive feature organization, serving as the blueprint for the application's structure.
+The user flow map shows how users move through the app, highlighting key paths and interactions. It clarifies hierarchy and guides intuitive feature organization.
 
 </aside>
 
@@ -135,7 +140,7 @@ The user flow map visualizes how users navigate through the application, highlig
 <aside>
 💡
 
-I believe onboarding should feel like an invitation, not a barrier. The registration and email verification flow was designed to feel as light as possible, guiding users in with clear instructions, minimal input fields, and a sense of welcome from the first click
+Onboarding should feel like an invitation, not a barrier. I kept registration and email verification lightweight, with clear guidance, minimal fields, and a welcoming first step.
 
 </aside>
 
@@ -165,7 +170,7 @@ I believe onboarding should feel like an invitation, not a barrier. The registra
 
       Item Details Screen
 
-> The registration screen was intentionally kept minimal to reduce friction. It includes only essential fields (username, email, password), making the process quick and less overwhelming for first time users.
+> The registration screen is intentionally minimal to reduce friction. It asks only for a username, email, and password, so signing up is quick and less overwhelming for first time users.
 > 
 
 > As users start typing, field labels shift and helper texts appear. This makes the experience feel more interactive and reduces errors before submission.
@@ -183,7 +188,7 @@ I believe onboarding should feel like an invitation, not a barrier. The registra
 > Once logged in, users land on the dashboard where they can scroll through recently posted found items. Each item is shown in a simple card format with a picture, item type, and short headline. This helps users quickly scan for familiar items.
 > 
 
-> When a user clicks on any item card, they’re taken to a dedicated page showing full details which includes images, a brief description, and a bold “Claim Item” button. The goal was to create a sense of trust and clarity while guiding users to take action easily.
+> Clicking an item card opens a details page with images, a short description, and a bold “Claim Item” button. The layout builds trust and makes the next step clear.
 > 
 
 ## Claim item process
@@ -191,7 +196,7 @@ I believe onboarding should feel like an invitation, not a barrier. The registra
 <aside>
 💡
 
-To prevent false claims and build a system people can rely on, I designed a **4-step claim process** backed by evidence, context, and verification. Each screen guides users with clear progress indicators, input constraints, and supportive microcopy.
+To reduce false claims and build trust, I created a four-step claim flow grounded in evidence, context, and verification. Each screen uses clear progress cues, input limits, and supportive microcopy to guide users.
 
 </aside>
 
@@ -205,18 +210,18 @@ To prevent false claims and build a system people can rely on, I designed a **4-
 
 ![Theme=Light, Type=🤖 Chrome (3).png](ThemeLight_Type_Chrome_(3).png)
 
-> Here, users provide details about the item they are claiming. These responses help validate ownership, especially when cross checked with the original finder
-> 
+> In this step, users describe the item they’re trying to claim. Their answers help confirm ownership, especially when they’re compared with the finder’s report.
+>  
 
-> I leaned into open ended fields to let users give personalised descriptions. In future iterations, I’ll replace some text fields with drop downs for faster input and data consistency.
+ > I used open-ended fields so users could give detailed, personal descriptions. In a future iteration, I’d replace some of these with drop-downs to speed up entry and keep the data more consistency.
 > 
 
 ![Theme=Light, Type=🤖 Chrome (4).png](ThemeLight_Type_Chrome_(4).png)
 
-> To further verify ownership, I added memory based security questions the kind of info only the real owner would know.
+> To further verify ownership, I added memory-based security questions—details only the real owner is likely to know.
 > 
 
-> This step adds a human touch. It’s not just about the item, it’s about the context. Memories are harder to fake than physical descriptions.
+> This step adds a more human layer to the process. It’s not just about the item itself, but the story around it, and those personal details are harder to fake than a basic description.
 > 
 
 ![Theme=Light, Type=🤖 Chrome (5).png](ThemeLight_Type_Chrome_(5).png)
@@ -229,17 +234,24 @@ To prevent false claims and build a system people can rely on, I designed a **4-
 
 ## 🔄 Future Learnings & Iterations
 
-- I plan to design mobile screens, add admin-user communication features, and conduct usability testing for deeper insights.
-- I realized I didn’t include a “Report Found Item” screen, which is a key feature for encouraging community contribution. In a future iteration, I’d design a clear and simple flow that lets users quickly submit found items, with options to add item details, upload photos, and set visibility preferences.
-- Some text inputs (like item type and ID type) could be replaced with drop downs to reduce user effort and improve data accuracy.
-- I missed adding a verification success screen, which is essential to complete the onboarding loop and build trust.
-- The multi-step claim process might feel overwhelming. I’d explore adding tooltips or explanations at each step to guide users.
-- Uploading documentation might be difficult for some users. A "save and continue later" feature or mobile camera access would help.
-- I’d add more comforting microcopy during claim steps to reassure users during what could be a stressful process.
+- Next, I plan to design mobile screens, add admin–user communication features, and run usability tests to gather deeper insights.
+- I also realized I didn’t include a “Report Found Item” screen, which is essential for encouraging community contributions. In a future iteration, I’d create a clear, streamlined flow that lets users submit found items quickly, including options to add item details, upload photos, and choose visibility settings.
+- Finally, I’d replace some text fields (such as item type and ID type) with drop-down menus to reduce effort and improve data accuracy.
+- Add a verification success screen to close the onboarding loop and reinforce trust.
+- Because the claim flow has multiple steps, I’d add brief tooltips and in-context guidance to help users move through each step with confidence. - Document upload can be difficult for some users, so I’d include a “save and continue later” option and allow uploads via mobile camera capture.
+- Add reassuring microcopy throughout the claim process to support users during what can be a stressful experience.
+
+
+
 
 ## **Takeaways:**
 
-<aside>
-✅ While working on *E No Lost*, I focused so much on helping users claim items that I overlooked one of the most important parts of a lost and found system — reporting a found item. This was a big aha moment for me. It reminded me that great UX isn’t just about polishing what users *do* on the app, but making sure all *core user journeys* are covered. In the next iteration, I’d create a simple, welcoming flow that encourages good samaritans to share what they’ve found. Because the heart of this product isn’t just design — it’s community.
 
+<aside>
+While working on E No Lost, I put most of my energy into the “claim item” experience and overlooked an equally important journey: helping someone report a found item. Catching that gap was a turning point. It reminded me that strong UX isn’t just about polishing individual screens; it’s about supporting the full loop from end to end.  
+</aside>
+
+
+<aside>
+In the next iteration, I’d build a simple, friendly “Report Found Item” flow that makes it easy for good samaritans to share what they’ve found...adding key details, uploading photos, and choosing visibility. Ultimately, this product is about more than interface decisions; it’s about enabling community members to help each other.
 </aside>
