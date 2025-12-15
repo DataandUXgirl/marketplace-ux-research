@@ -247,11 +247,11 @@ To reduce false claims and build trust, I created a four-step claim flow grounde
 ## **Takeaways:**
 
 
-<aside>
-While working on E No Lost, I put most of my energy into the “claim item” experience and overlooked an equally important journey: helping someone report a found item. Catching that gap was a turning point. It reminded me that strong UX isn’t just about polishing individual screens; it’s about supporting the full loop from end to end.  
-</aside>
+>
+While working on E No Lost, I put most of my energy into the “claim item” experience and overlooked an equally important journey: helping someone report a found item. Catching that gap was a turning point. It reminded me that strong UX isn’t just about polishing individual screens; it is about supporting the full loop from end to end.  
+>
 
 
-<aside>
-In the next iteration, I’d build a simple, friendly “Report Found Item” flow that makes it easy for good samaritans to share what they’ve found...adding key details, uploading photos, and choosing visibility. Ultimately, this product is about more than interface decisions; it’s about enabling community members to help each other.
-</aside>
+>
+In the next iteration, I would build a simple, friendly “Report Found Item” flow that makes it easy for good samaritans to share what they’ve found...adding key details, uploading photos, and choosing visibility. Ultimately, this product is about more than interface decisions; it is about enabling community members to help each other.
+>
