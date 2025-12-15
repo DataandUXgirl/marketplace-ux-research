@@ -73,7 +73,7 @@ These findings directly informed our design decisions, helping us prioritize acc
 
 Created personas and customer journey map to understand more about the user's problems. 
 
-![User persona.png](E%20no%20Lost/User_persona.png)
+![User persona.png](User_persona.png)
 
 ## User Journey map
 
@@ -110,25 +110,25 @@ The user flow map visualizes how users navigate through the application, highlig
 
 *User flow map*
 
-![E no Lost Information architecture 1.png](E%20no%20Lost/E_no_Lost_Information_architecture_1.png)
+![E no Lost Information architecture 1.png](E_no_Lost_Information_architecture_1.png)
 
 ## **Design Phase**
 
 ## 🎨 Design System
 
-![Colur style.png](E%20no%20Lost/Colur_style.png)
+![Colur style.png](Colur_style.png)
 
-![Typography.png](E%20no%20Lost/Typography.png)
+![Typography.png](Typography.png)
 
-![Grid system (1).png](E%20no%20Lost/Grid_system_(1).png)
+![Grid system (1).png](Grid_system_(1).png)
 
-![Grid system (2).png](E%20no%20Lost/Grid_system_(2).png)
+![Grid system (2).png](Grid_system_(2).png)
 
-![Grid system.png](E%20no%20Lost/Grid_system.png)
+![Grid system.png](Grid_system.png)
 
-![Components (2).png](E%20no%20Lost/Components_(2).png)
+![Components (2).png](Components_(2).png)
 
-![Components (3).png](E%20no%20Lost/Components_(3).png)
+![Components (3).png](Components_(3).png)
 
 ## **🔑 Registration / Sign Up Screens**
 
@@ -139,29 +139,29 @@ I believe onboarding should feel like an invitation, not a barrier. The registra
 
 </aside>
 
-![      Signup ~ Default State ](E%20no%20Lost/Enolost001.png)
+![      Signup ~ Default State ](Enolost001.png)
 
       Signup ~ Default State 
 
-![     Signup ~ Typing State ](E%20no%20Lost/Enolost_002.png)
+![     Signup ~ Typing State ](Enolost_002.png)
 
      Signup ~ Typing State 
 
-![     Signup ~ Error State ](E%20no%20Lost/e_no_lost_001.png)
+![     Signup ~ Error State ](e_no_lost_001.png)
 
      Signup ~ Error State 
 
-![      Verification Screen](E%20no%20Lost/enolost_004.png)
+![      Verification Screen](enolost_004.png)
 
       Verification Screen
 
 ## 🤳🏾 Browsing found items
 
-![      Home Screen](E%20no%20Lost/ThemeLight_Type_Chrome_(7).png)
+![      Home Screen](ThemeLight_Type_Chrome_(7).png)
 
       Home Screen
 
-![      Item Details Screen](E%20no%20Lost/ThemeLight_Type_Chrome.png)
+![      Item Details Screen](ThemeLight_Type_Chrome.png)
 
       Item Details Screen
 
@@ -195,7 +195,7 @@ To prevent false claims and build a system people can rely on, I designed a **4-
 
 </aside>
 
-![Theme=Light, Type=🤖 Chrome (2).png](E%20no%20Lost/ThemeLight_Type_Chrome_(2).png)
+![Theme=Light, Type=🤖 Chrome (2).png](ThemeLight_Type_Chrome_(2).png)
 
 > In this first step, users are asked to provide personal identification details. These help the platform verify the legitimacy of the person making the claim.
 > 
@@ -203,7 +203,7 @@ To prevent false claims and build a system people can rely on, I designed a **4-
 > I included official ID submission to reduce spam and build a sense of accountability from the start. Users can choose the ID type, keeping it flexible.
 > 
 
-![Theme=Light, Type=🤖 Chrome (3).png](E%20no%20Lost/ThemeLight_Type_Chrome_(3).png)
+![Theme=Light, Type=🤖 Chrome (3).png](ThemeLight_Type_Chrome_(3).png)
 
 > Here, users provide details about the item they are claiming. These responses help validate ownership, especially when cross checked with the original finder
 > 
@@ -211,7 +211,7 @@ To prevent false claims and build a system people can rely on, I designed a **4-
 > I leaned into open ended fields to let users give personalised descriptions. In future iterations, I’ll replace some text fields with drop downs for faster input and data consistency.
 > 
 
-![Theme=Light, Type=🤖 Chrome (4).png](E%20no%20Lost/ThemeLight_Type_Chrome_(4).png)
+![Theme=Light, Type=🤖 Chrome (4).png](ThemeLight_Type_Chrome_(4).png)
 
 > To further verify ownership, I added memory based security questions the kind of info only the real owner would know.
 > 
@@ -219,7 +219,7 @@ To prevent false claims and build a system people can rely on, I designed a **4-
 > This step adds a human touch. It’s not just about the item, it’s about the context. Memories are harder to fake than physical descriptions.
 > 
 
-![Theme=Light, Type=🤖 Chrome (5).png](E%20no%20Lost/ThemeLight_Type_Chrome_(5).png)
+![Theme=Light, Type=🤖 Chrome (5).png](ThemeLight_Type_Chrome_(5).png)
 
 > The user is asked to schedule a convenient pickup date, time, and location.
 > 
